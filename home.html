@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+<style type="text/css" media="screen">
+	body{
+		background-color:#0B4F84;
+		width:100%;
+		height:100%;
+	}
+
+	#columnTitle{
+		text-align:center;
+		color:white;
+		width: 100%;
+		height: 100%;
+	}
+
+	#columnTitle{
+		margin-bottom: 0;
+	}
+
+	#image{
+		width:60%;
+	}
+
+	#link{
+		display:inline-block;overflow:hidden;
+		background:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.png) no-repeat;
+		width:135px;
+		height:40px;
+
+
+	}
+	@media only screen{
+		background-image:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg);}
+
+		#description{
+			margin: 6px 2%;
+			font-size:1em;
+  			line-height: 1.5em;
+		}
+</style>
+	<title></title>
+</head>
+<body>
+	<div id="columnTitle">
+		<h1>
+			ProfeSearch
+		</h1>
+		<img id="image" src="" alt="picture"></img>
+
+		<p id="description">
+			ProfeSearch help's you find the best or the worst professors in Puerto Rico. <br> <u> Download ProfeSearch Here</u>
+		</p>
+		<div id="link-download">
+			
+		</div>
+			
+
+	</div>
+
+	<script type="text/javascript">
+
+	if( navigator.userAgent.match("Android") )
+	{
+		document.getElementById("image").src = "./img/android.png"	
+		document.getElementById("link-download").innerHTML = '<a href="https://play.google.com/store/apps/details?id=com.ionicframework.notaso683473"> <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" /></a>';
+	}
+	else if(navigator.userAgent.match("iPhone") || navigator.userAgent.match("iPad"))
+	{
+		document.getElementById("image").src = "./img/iphone.png"	
+		document.getElementById("link-download").innerHTML = '<a id="link" href="https://itunes.apple.com/us/app/profesearch/id985709320?mt=8&uo=6&at=&ct=" target="itunes_store"></a>';
+	}
+
+
+	</script>
+</body>
+</html>
