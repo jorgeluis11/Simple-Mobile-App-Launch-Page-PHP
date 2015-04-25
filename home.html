@@ -35,9 +35,64 @@
 		background:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.png) no-repeat;
 		width:135px;
 		height:40px;
-
-
+		
 	}
+
+	#link{
+		-webkit-animation: scale-animation 4s infinite;
+		   -moz-animation: scale-animation 4s infinite;
+		    -ms-animation: scale-animation 4s infinite;
+		     -o-animation: scale-animation 4s infinite;
+		        animation: scale-animation 4s infinite;
+	}
+
+	@-webkit-keyframes scale-animation{
+		0%{
+			-moz-transform: scale(1);
+			   -webkit-transform: scale(1);
+			   -o-transform: scale(1);
+			   transform: scale(1);
+		
+		}
+		50%{
+			-moz-transform: scale(1.1);
+			   -webkit-transform: scale(1.1);
+			   -o-transform: scale(1.1);
+			   transform: scale(1.1);
+		}
+		
+		100%{
+			-moz-transform: scale(1.0);
+			   -webkit-transform: scale(1.0);
+			   -o-transform: scale(1.0);
+			   transform: scale(1.0);
+		}
+	}
+
+	@keyframes scale-animation{
+		0%{
+			-moz-transform: scale(1);
+			   -webkit-transform: scale(1);
+			   -o-transform: scale(1);
+			   transform: scale(1);
+		}
+		
+		50%{
+			-moz-transform: scale(1.1);
+			   -webkit-transform: scale(1.1);
+			   -o-transform: scale(1.1);
+			   transform: scale(1.1);
+		}
+		
+		100%{
+			-moz-transform: scale(1.0);
+			   -webkit-transform: scale(1.0);
+			   -o-transform: scale(1.0);
+			   transform: scale(1.0);
+			}
+		
+	}
+
 	@media only screen{
 		background-image:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg);}
 
