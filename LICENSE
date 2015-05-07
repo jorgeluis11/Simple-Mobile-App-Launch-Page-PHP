@@ -1,11 +1,6 @@
-# Simple-Mobile-App-Launch-Page-PHP
-Simple Launch Page for a mobile app.  Done in two hours, but works really well in a free Heroku server or any other cloud server.
+The MIT License (MIT)
 
-## License
-
-All of "Mobile App Launch Page" is licensed under the MIT license.
-
-Copyright (c) 2010-2014 José Padilla
+Copyright (c) 2015 Jorge Perez
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,3 +19,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
